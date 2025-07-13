@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="mainBox py-5">
+                <h1 class="text-center">
+                    Smart Login System
+                </h1>
+                <p id="loginAlert" class="py-0 px-1 m-auto rounded-1 mb-2 d-none text-center">Incorrect UserName or Password</p>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="bg-transparent mb-3 px-2 py-1 rounded-1 d-block m-auto d-none">
+                <p id="nameAlert" class="py-0 px-1 m-auto rounded-1 mb-2 d-none">Name should be letters only and minimum 1 character</p>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-transparent mb-3 px-2 py-1 rounded-1 d-block m-auto">
+                <p id="emailAlert" class="py-0 px-1 m-auto rounded-1 mb-2 d-none">Email form is invalid</p>
+                <input type="password" name="password" id="pass" placeholder="Enter your password"  class="bg-transparent mb-4 px-2 py-1 rounded-1 d-block m-auto">
+                <p id="passwordAlert" class="py-0 px-1 m-auto rounded-1 mb-2 d-none">Password should be minimum 1 character</p>
+                <button type="submit" id="Btn" class="d-block mx-auto bg-transparent p-1 rounded-2 mb-3">Login</button>
+                <div class="noAccount d-flex justify-content-center gap-1">
+                    <p class="question">Don't have an account?</p><span id="signUp"> Sign Up</span>
+                </div>
+            </div>
+        </div>
+
+
+        <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js">
+            </script>
+        <script src="index.js"></script>
+    </body>
+</html>

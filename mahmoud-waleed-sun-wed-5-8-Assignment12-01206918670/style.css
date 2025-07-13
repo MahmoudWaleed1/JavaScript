@@ -1,0 +1,51 @@
+body{
+    background-color: #24353f;
+    font-family: sans-serif;;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 58%;
+    margin: auto;
+    margin-top: 3rem;
+}
+h1{
+    color: #17a2b8;
+    padding-bottom: .5rem;
+}
+input{
+    width: 90%;
+    color: white;
+    border: 1px solid #ced4da;
+}
+.mainBox{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+button{
+    width: 90%;
+    margin: auto;
+    color: #17a2b8;
+    border-color: #17a2b8;
+    margin-top: 2rem;
+    transition: .4s;
+}
+.mainBox .noAccount{
+    color: white;
+}
+span:hover{
+    text-decoration: underline;
+}
+span{
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #17a2b8 !important;
+}
+#nameAlert, #emailAlert, #passwordAlert, #loginAlert{
+    width: 90%;
+    color: rgb(177, 7, 7);
+    background-color: black;
+    border: solid 1px rgb(177, 7, 7);
+}
