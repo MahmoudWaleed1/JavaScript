@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #1e202b;
+    font-family: "Roboto", "Open Sans", sans-serif;;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    margin-top: 2%;
+}
+.nav-link{
+    color: white !important;
+    padding: 1px 25px !important;
+    border: 2px solid transparent;
+    transition: .4s;
+    font-size: 0.9rem;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.navbar img{
+    width: 6%;
+    padding-right: 5px;
+    margin-bottom: 5px;
+
+}
+.active{
+    color: #009ad8 !important;
+    border: solid 2px #009ad8;
+    border-radius: 30px;
+}
+.nav-link:hover{
+    color: #009ad8 !important;
+    border: solid 2px #009ad8;
+    border-radius: 30px;
+}
+.navbar p{
+    font-size: 10px;
+    color: #bfc1c8
+}
+.main{
+    background: url("../imgs/banner.png") !important;
+    background-size: cover;
+    height: 300px;
+    padding-top: 5%;
+    padding-bottom: 17.35rem;
+    margin-bottom: 21rem;
+}
+.main input{
+    background-color: #1e202b;
+    border-radius: 30px;
+    color: white;
+    padding-left: 15px;
+    height: 60px;
+    width: 77%;
+    border-color: transparent;
+    margin-bottom: 4%;
+}
+.main button{
+    position: absolute;
+    right: 11.8%;
+    top: 4%;
+    width: 6%;
+    height: 50px;
+    background-color: #009ad8;
+    color: white;
+    border-color: transparent;
+}
+.firstCard,.secondCard,.thirdCard{
+    min-height: 26rem;
+}
+.firstCard{
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 0;
+    border-radius: 10px 0 0 10px;
+}
+.firstCard h5{
+    font-size: 0.85rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.firstDate{
+    background: rgba(0, 0, 0, 0.1);
+
+}
+.cardsContainer{
+    width: 75%;
+}
+.details{
+    padding: 4% 4%;
+}
+.details h3{
+    font-weight: 400;
+    margin-top: 2%;
+    font-size: 1.2rem;
+}
+.details h1{
+    font-size: 6rem;
+    color: white;
+    font-weight: 700;
+    
+}
+.details h5, #weather2, #weather3{
+    color: #009ad8;
+    font-size: 0.9rem;
+}
+.secondCard{
+    background-color: #262936;
+    padding: 0;
+    color: #bfc1c8;
+}
+.secondDate{
+    background-color: #1e202b;
+}
+.secondDate h5{
+    font-size: 0.85rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.thirdCard{
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 0;
+    border-radius: 0 10px 10px 0;
+}
+.thirdCard h5{
+    font-size: 0.85rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.thirdDate{
+    background: rgba(0, 0, 0, 0.1);
+
+}
+.footer{
+    background-color: #262936;
+}
+.footer input{
+    background-color: #1e202b;
+    border-radius: 30px;
+    color: white;
+    padding-left: 15px;
+    height: 60px;
+    width: 71%;
+    border-color: transparent;
+    margin-top: 4%;
+}
+.footer button{
+    position: absolute;
+    right: 15.5%;
+    top: 5%;
+    width: 10%;
+    height: 45px;
+    background-color: #009ad8;
+    color: white;
+    border-color: transparent;
+    margin-top: 4%;
+}
+.subscribe{
+    width: 71%;
+}
+.icons i{
+    color: #009ad8;
+    font-size: 1.2rem;
+}
+.icons{
+    height: fit-content;
+}
+.iconContainer{
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+}
+.footer h6{
+    color: #bfc1c8;
+    padding-left: 10.5rem;
+    font-size: .9rem;
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+.secondDetails, .thirdDetails{
+    padding-top: 2rem;
+}
+#first_icon{
+    font-size: 4rem;
+}
+#temp2,#temp3,#temp2_2,#temp3_2{
+    color: white;
+}
+
+
+
