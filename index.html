@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid">
+                        <img src="imgs/logo@2x.png" alt="logo image">
+                        <a class="navbar-brand" href="#">
+                            
+                                Weather
+                                <p>tagline goes here</p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Live Camera</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+            <div class="main">
+                <form action="" class="d-flex justify-content-center w-100 position-relative">
+                    <input type="text" name="location" id="location" placeholder="Find your location...">
+                    <button type="submit" class="rounded-pill">Find</button>
+                </form>
+                
+            <div class="cardsContainer m-auto">
+                <div class="cards row">
+                    <div class="firstCard col-md-4">
+                        <div class="firstDate d-flex justify-content-between w-100">
+                            <h5 class="px-2" id="day1">Day</h5>
+                            <h5 class="px-2" id="month1">Month</h5>
+                        </div>
+                        <div class="details">
+                            <h3 id="name">City</h3>
+                            <h1 id="tempFirst">Temp</h1>
+                            <div id="first_icon" class="d-flex justify-content-center align-items-center">icon
+                                <img src="" alt="">
+                            </div>
+                            <h5 id="firstWeather" class="mb-5">Weather</h5>
+                            <div class="furtherDetails d-flex gap-5">
+                                <div class="group d-flex justify-content-center align-content-center gap-1">
+                                    <i class="fa-solid fa-umbrella"></i>
+                                    <h6 id="rain">humidity</h6>
+                                </div>
+                                <div class="group d-flex justify-content-center align-content-center gap-1">
+                                    <i class="fa-solid fa-wind"></i>
+                                    <h6 id="wind">wind</h6>
+                                </div>
+                                <div class="group d-flex justify-content-center align-content-center gap-1">
+                                    <i class="fa-solid fa-compass"></i>
+                                    <h6 id="direction">direction</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="secondCard col-md-4">
+                        <div class="secondDate d-flex justify-content-center align-items-center w-100">
+                            <h5 id="day2">Day</h5>
+                        </div>
+                        <div class="secondDetails d-flex flex-column align-items-center justify-content-around gap-1">
+                            <div id="icon2">Icon
+                                <img src="" alt="">
+                            </div>
+                            <h4 id="temp2" class="mt-4">Temp</h4>
+                            <h6 id="temp2_2" class="mb-4">Average Temp</h6>
+                            <h5 id="weather2">Weather</h5>
+                        </div>
+                    </div>
+                    <div class="thirdCard col-md-4">
+                        <div class="thirdDate d-flex justify-content-center align-items-center w-100">
+                            <h5 id="day3">Day</h5>
+                        </div>
+                        <div class="thirdDetails d-flex flex-column align-items-center justify-content-around gap-1">
+                            <div id="icon3">Icon
+                                <img src="" alt="">
+                            </div>
+                            <h4 id="temp3" class="mt-4">Temp</h4>
+                            <h6 id="temp3_2" class="mb-4">Average Temp</h6>
+                            <h5 id="weather3">Weather</h5>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            <div class="footer d-flex flex-wrap mt-5">
+                <div class="subscribe">
+                     <form action="" class="d-flex justify-content-center position-relative mx-3 py-0 my-0">
+                    <input type="text" name="location" id="location" placeholder="Enter your email to subscribe...">
+                    <button type="submit" class="rounded-pill">Subscribe</button>
+                </form>
+                </div>
+                <div class="icons d-flex justify-content-center gap-1 mt-5">
+                    <div class="iconContainer rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconContainer rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="iconContainer rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="iconContainer rounded-circle d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+                <h6>Copyright 2014 Company name. Designed by Themezy. All rights reserved</h6>
+            </div>
+           
+            </div>
+        
+
+      <script src="index.js"></script>  
+    </body>
+</html>
