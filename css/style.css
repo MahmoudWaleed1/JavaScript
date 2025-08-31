@@ -1,0 +1,166 @@
+body{
+    background-color: #272b30;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+header img{
+    height: 30%;
+    object-fit: cover;
+    z-index: -1;
+}
+nav {
+    width: 75%;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+    border-radius: 20px;
+    font-family: cursive;
+    margin-top: -30px; 
+    z-index: 3 !important;
+    top: 0 !important;
+    position: sticky !important;
+}
+
+.navbar {
+    background-color: rgb(58, 73, 123) !important;
+    padding: .7rem 0;
+}
+.nav-link{
+    color: white !important;
+    font-size: .8rem;
+    font-weight: 100;
+    transition: .5s;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.navbar-brand img{
+    width: 35px;
+    height: 30px;
+}
+.active{
+    color: #09c !important;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.free{
+    position: absolute;
+    background-color: rgba(13,110,253,1);
+    padding: 5px 8px;
+    color: white;
+    top: 170px;
+    right: 0%;
+    border-radius: 8px;
+    font-size: .8rem;
+}
+.cardContent{
+    position: relative;
+    color: white;
+    height: 100%;
+    filter: grayscale(0.7);
+    transition:0.5s 0.1s;
+}
+.card{
+    background-color: #272b30;
+    border: solid 1px rgba(0, 0, 0, 0.175);
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.details{
+    color: rgb(144, 144, 144);
+    text-align: center;
+    font-size: .9rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+.footer{
+  color: white;
+  border-top: 1px solid rgba(9, 7, 7, 0.175);
+  margin-left: -1rem;   
+  margin-right: -1rem;
+  padding-left: 1rem; 
+  padding-right: 1rem;  
+  padding-bottom: .3rem;    
+  padding-top: .3rem;   
+}
+.type, .platform{
+    font-size: .7rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    background-color: #32383e;
+    border-radius: 7px;
+}
+.title{
+    font-size: .9rem;
+}
+.container img{
+    padding-bottom: 1rem;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.cardContent:hover{
+    filter: grayscale(0);
+}
+.nav-link:hover{
+    color: #09c !important;
+}
+.detailsPage{
+    background-color: #272729be;
+    color: white;
+}
+.detailsContainer{
+    width: 88%;
+    margin: auto;
+    padding-top: 2%;
+}
+.detailsPage h2{
+    font-size: 1.7rem;
+}
+.detailsPage img{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.detailsPart{
+    width: 68%;
+    margin-top: 4.5rem;
+}
+.imagePart{
+    width: 32%;
+}
+.categoryH6, .platformH6, .statusH6{
+    background-color: rgba(13,202,240,1);
+    padding: 4px 8px;
+    color: black;
+    font-weight: 900;
+    font-size: .7rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.longDisc{
+    font-size: .9rem;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.detailsContainer button{
+    color: white;
+    border: 1px solid #ffc107;
+    transition: .5s;
+}
+.detailsContainer button:hover{
+    background-color: #ffc107;
+    color: white;
+}
+.detailsPage i{
+    top: 3%;
+    right: 10%;
+    font-size: 2rem;
+    cursor: pointer;
+}
